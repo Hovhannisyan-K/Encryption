@@ -8,9 +8,9 @@ public class StartProgram {
 		System.out.println("Plain Alphabet Length: " + encryption.getPlainAlphabet().length());
 		System.out.println(encryption.getShiftedAlphabet());
 		System.out.println("Shifted Alphabet Length: " + encryption.getShiftedAlphabet().length());
-		encryption.encrypt("acddr");
+		encryption.encrypt("att");
 		System.out.println("ENCRYPTED PASSWORD: " + encryption.getPasswordEncrypted());
-		System.out.println(encryption.decrypt("acddr"));
+		System.out.println(encryption.decrypt("att"));
 	}
 	
 }
